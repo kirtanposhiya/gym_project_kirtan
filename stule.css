@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header h1 {
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+li :hover{
+    color: red;
+    
+}
+.a {
+    background-image: url('img/home.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 250px 60px;
+}
+.a h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.a p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btn {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.classes {
+    padding: 50px 20px;
+    text-align: center;
+}
+.b {
+    margin-bottom: 40px;
+}
+.b h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.b p {
+    font-size: 16px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+

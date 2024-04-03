@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('img/backg.jpg');
+            background-size: cover;
+        }
+        .container{
+            background-color: rgba(230, 226, 226, 0.521);
+            width: 40%;
+            margin: auto;
+            padding: 10px 20px;
+        }
+        label{
+            display: block;
+            font-size: 15px;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+        .a{
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px 0px;
+        }
+        select, option{
+            border-radius: 10px;
+        }
+        textarea{
+            width: 100%;
+            margin-bottom: 7px;
+        }
+        h2{
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        .mrg{
+            margin-bottom: 10px;
+        }
+        #submit{
+            background-color: rgb(5, 165, 144);
+            color: white;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 4px;
+            padding: 15px 0px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        #submit:hover{
+            scale: 0.9;
+        }
+        li :hover{
+            color: red;
+        }
+        /* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Registration form</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About us </a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="login.html">Login</a></li>
+
+                 <a href="join_now.html" class="btn">Join Now</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form>
+            <h2>Registration Form</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="a">
+            <label for="email">Email id</label>
+            <input type="email" id="email" class="a">
+            <label for="number">Number</label>
+            <input type="number" id="number" class="a">
+            <label for="Address">Address</label>
+            <input type="text" id="Address" class="a">
+            <label for="name">City</label>
+            <input type="text" id="name" class="a">
+            <label for="age">Age:</label>
+            <input type="radio" name="age" class="mrg"> Under 16 <br>
+            <input type="radio" name="age"> 16 or Older
+            <input type="submit" id="submit" class="a">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Gym Management. All rights reserved.</p>
+    </footer>
+    </body>
+</html>
