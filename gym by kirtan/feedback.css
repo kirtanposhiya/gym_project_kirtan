@@ -1,0 +1,140 @@
+body { 
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    flex-direction: column; 
+    height: 100vh; 
+    background-image: url('img/feedback.jpg'); 
+    font-family: 'Poppins', sans-serif; 
+    background-size: cover;
+} 
+.a1 { 
+    text-align: center; 
+    color: rgb(11, 118, 11); 
+    font-weight: 700; 
+} 
+.i{ 
+    margin-right: 3px; 
+} 
+.a { 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 500px; 
+} 
+form { 
+    max-width: 400px; 
+    margin: 0 auto; 
+} 
+.radio-group { 
+    display: flex; 
+    margin-bottom: 16px; 
+} 
+input[type="radio"] { 
+    margin-right: 8px; 
+} 
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 17px; 
+    color: green; 
+    font-weight: 600; 
+} 
+input, textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 12px;
+    box-sizing: border-box; 
+    border-radius: 10px; 
+} 
+button { 
+    background-color: #368b44; 
+    color: #fff; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 15px; 
+    transition: .2s linear; 
+} 
+button:hover { 
+    background-color: #0a6808; 
+    border: none; 
+    transform: translateY(-10px); 
+} 
+h1,h2 { 
+
+    color: white; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li :hover{
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header h1 {
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
